@@ -21,7 +21,7 @@ export function sidebar() {
 
   sidebarInner.innerHTML = `
     <div class="sidebar-list">
-      <p class="title">Género</p>
+      <p class="title">Genero</p>
     </div>
     <div class="sidebar-list">
       <p class="title">Language</p>
