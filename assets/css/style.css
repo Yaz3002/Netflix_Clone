@@ -668,9 +668,6 @@ body {
   inset: 0;
 }
 
-/*-----------------------------------*\
-  #DETAIL PAGE
-\*-----------------------------------*/
 
 .backdrop-image {
   position: absolute;
@@ -747,10 +744,6 @@ body {
   width: 100%;
 }
 
-/*-----------------------------------*\
-  #SEARCH MODAL
-\*-----------------------------------*/
-
 .search-modal {
   position: fixed;
   top: 96px;
@@ -773,10 +766,6 @@ body {
   font-weight: var(--weight-bold);
   margin-block-end: 8px;
 }
-
-/*-----------------------------------*\
-  #HEADER
-\*-----------------------------------*/
 
 /* screen larger than 575px */
 @media (min-width: 575px) {

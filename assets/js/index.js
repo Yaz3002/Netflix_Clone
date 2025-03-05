@@ -9,18 +9,17 @@ const pageContent = document.querySelector("[page-content]");
 
 sidebar();
 
-// Home page sections (Top rated, Upcoming, Trending movies)
 const homePageSections = [
   {
-    title: "Upcoming Movies",
+    title: "Próximas Películas",
     path: "/movie/upcoming",
   },
   {
-    title: "Weekly Trending Movies",
+    title: "Tendencia Semanal",
     path: "/trending/movie/week",
   },
   {
-    title: "Top Rated Movies",
+    title: "Mejor Calificadas",
     path: "/movie/top_rated",
   },
 ];

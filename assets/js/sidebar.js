@@ -21,7 +21,7 @@ export function sidebar() {
 
   sidebarInner.innerHTML = `
     <div class="sidebar-list">
-      <p class="title">Genre</p>
+      <p class="title">Género</p>
     </div>
     <div class="sidebar-list">
       <p class="title">Language</p>
@@ -29,9 +29,13 @@ export function sidebar() {
       <a href="./movie-list.html" menu-close class="sidebar-link"
         onclick='getMovieList("with_original_language=en", "English")'>English</a>
       <a href="./movie-list.html" menu-close class="sidebar-link"
+        onclick='getMovieList("with_original_language=zh", "Mandarin")'>Mandarin</a>
+      <a href="./movie-list.html" menu-close class="sidebar-link"
         onclick='getMovieList("with_original_language=es", "Español")'>Español</a>
     </div>
-    
+
+
+
     <div class="sidebar-footer">
       <p class="copyright">
         Copyright 2025
